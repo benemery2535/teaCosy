@@ -1,0 +1,173 @@
+
+/*Universal styles*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+
+  text-align: center;  /*ALL TEXT ON PAGE IS CENTERED IN ITS PARENT ELEMENT*/
+}
+
+a {
+  color: seashell;
+}
+
+
+
+
+/*Header nav Section*/
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.navAnchor {
+  margin-right: 25px;
+  text-decoration: underline;
+}
+
+
+
+
+/*HERO section under header*/
+.container1 {
+  display: flex;
+  position: relative;
+  top: 69px;
+  justify-content: center;
+  align-content: center;
+  height: 700px;
+  /*width: 1200px;*/
+  width: 100%;
+  background-image: url("images/img-mission-background.jpg");	
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.one {
+  background-color: black;
+  height: 150px;
+  width: 100%;
+  align-self: center;  /*is this the best way to vertically center this Div?*/
+}
+
+
+
+
+/*teas of the month section*/
+.teasMonth {
+  width: 80%;
+  margin: 0 auto;
+  top: 69px;
+  position: relative;
+}
+
+.flexTeas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.teas img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.h2Month {
+  padding-top: 35px;
+}
+
+
+
+/*locations section*/
+.bigContainer{
+ background-image: url("images/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+  top: 69px;
+  position: relative;
+  margin: 0 auto;	
+}
+
+.bigContainer h2 {
+   margin-bottom: 15px;
+  padding-top: 150px;
+}
+
+.locationsContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.locationItems1 {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  height: fit-content;
+  margin-right: 40px;
+}
+
+.locationItems2 {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  height: fit-content;
+  margin-right: 40px;
+}
+
+.locationItems3 {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  height: fit-content;
+}
+
+
+
+/*contact section*/
+
+.contactContainer {
+  height: 200px;
+  width: 100%;
+  top: 69px;
+  position: relative; /*is there a better way to position than using relative for all main divs???*/
+}
+
+
+
+/*copyright section*/
+.copyright {
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  height: 20px;
+  top: 69px; /*is there a better way to position than using relative for all main divs???*/
+  position: relative;
+}
